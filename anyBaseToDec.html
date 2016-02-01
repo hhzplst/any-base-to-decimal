@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Any Base To Decimal</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="anyBaseToDec.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="col-md-8 col-md-offset-2">
+  <div class="jumbotron calculateBlock">
+    <h2 class="text-center">Convert Any Base To Decimal</h2>
+    <form action="javascript:void(0)" id="anyBaseToDec">
+      <div class="form-group">
+        <label for="number">Input the number: </label>
+        <input type="text" name="number" class="form-control" placeholder="e.g. 11">      
+      </div>
+      <div class="form-group">
+        <label for="base">Input the base:</label> 
+        <input type="text" name="base" class="form-control" placeholder="e.g. 2">
+      </div>
+      <input type="submit" class="btn btn-success center-block">
+    </form>
+    <div id="result" class="text-center"></div>
+  </div>
+</form>
+</body>
+</html>
